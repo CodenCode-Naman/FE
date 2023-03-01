@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<DocumentFragment>
+  <footer
+    class="padding"
+  >
+    <p>
+      THEMES
+    </p>
+    <button
+      id="button1"
+    />
+    <button
+      id="button2"
+    />
+    <button
+      id="button3"
+    />
+  </footer>
+</DocumentFragment>
+`;

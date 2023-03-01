@@ -1,0 +1,53 @@
+footer {
+  height: 48px;
+  flex: none;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+
+#button1{
+    width: 25px;
+    height: 25px;
+    border-radius: 15%;
+    background-color: purple;
+    margin-left: 10px;
+    border: 1px solid purple;
+}
+
+#inside{
+    display:flex;
+    align-items: center;
+}
+
+#button2{
+    width:25px;
+    height:25px;
+    border-radius: 15%;
+    background-color: blue;
+    margin-left:10px;
+    border: 1px solid blue;
+}
+
+#button3{
+    width:25px;
+    height:25px;
+    border-radius: 15%;
+    background-color: grey;
+    margin-left:10px;
+    border: 1px solid grey;
+}
+
+@media only screen and (max-width:580px){
+    #footer{
+        padding-left: 35px;
+    padding-right: 50px;
+    }
+}

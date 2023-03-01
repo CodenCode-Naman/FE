@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display&display=swap');
+
+header{
+    display: flex;
+    max-width: 100vw;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 5rem;
+    font-family: 'Big Shoulders Inline Display';
+}
+
+header span {
+    margin-left: 10%;
+}
+
+@media only screen and (max-width:580px){
+    #heading{
+        padding-left: 35px;
+    padding-right: 50px;
+    }
+}
